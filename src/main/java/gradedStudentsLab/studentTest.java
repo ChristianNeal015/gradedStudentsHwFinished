@@ -9,7 +9,7 @@ public class studentTest {
         Student student = new Student(firstName, lastName, examScores);
 
         // When
-        String output = student.getExamScores();
+        double output = student.getExamScores();
 
         // Then
         System.out.println(output);
